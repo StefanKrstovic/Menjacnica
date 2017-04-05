@@ -13,7 +13,7 @@ public class KursIDatum {
 	}
 
 	public void setProdajni(double prodajni) {
-		//if(prodajni<=0)throw new RuntimeException();
+		if(prodajni<=0)throw new RuntimeException();
 		this.prodajni = prodajni;
 	}
 
@@ -22,7 +22,7 @@ public class KursIDatum {
 	}
 
 	public void setKupovni(double kupovni) {
-		//if(kupovni<=0)throw new RuntimeException();
+		if(kupovni<=0)throw new RuntimeException();
 		this.kupovni = kupovni;
 	}
 
@@ -31,7 +31,7 @@ public class KursIDatum {
 	}
 
 	public void setSrednji(double srednji) {
-		//if(srednji<=0)throw new RuntimeException();
+		if(srednji<=0)throw new RuntimeException();
 		this.srednji = srednji;
 	}
 
@@ -40,7 +40,7 @@ public class KursIDatum {
 	}
 
 	public void setDatum(GregorianCalendar datum) {
-		//if(datum==null)throw new RuntimeException();
+		if(datum==null)throw new RuntimeException();
 		this.datum = datum;
 	}
 	

@@ -12,7 +12,7 @@ public class Valuta {
 	}
 
 	public void setNaziv(String naziv) {
-		//if(naziv==null || naziv=="") throw new RuntimeException();
+		if(naziv==null || naziv=="") throw new RuntimeException();
 		this.naziv = naziv;
 	}
 
@@ -21,7 +21,7 @@ public class Valuta {
 	}
 
 	public void setSkraceniNaziv(String skraceniNaziv) {
-		//if(skraceniNaziv==null || skraceniNaziv=="") throw new RuntimeException();
+		if(skraceniNaziv==null || skraceniNaziv=="") throw new RuntimeException();
 		this.skraceniNaziv = skraceniNaziv;
 	}
 
@@ -30,7 +30,7 @@ public class Valuta {
 	}
 
 	public void setKurs(KursIDatum kurs) {
-		//if(kurs==null)throw new RuntimeException();
+		if(kurs==null)throw new RuntimeException();
 		this.kurs.add(kurs);
 	}
 	
