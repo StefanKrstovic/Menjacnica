@@ -8,19 +8,23 @@ public class Implementator implements MenjacnicaInterfejs {
 
 	@Override
 	public void dodajKursZaDan(GregorianCalendar datum, double kupovni, double srednji, double prodajni) {
-		// TODO Auto-generated method stub
-
+		KursIDatum k = new KursIDatum();
+		k.setDatum(datum);
+		k.setKupovni(kupovni);
+		k.setProdajni(prodajni);
+		k.setSrednji(srednji);
 	}
 
 	@Override
 	public void obrisiKursZaDan(GregorianCalendar datum) {
-		// TODO Auto-generated method stub
-
+		KursIDatum k = new KursIDatum();
+		if(k.getDatum().equals(datum))k=null;
 	}
 
 	@Override
 	public KursIDatum vratiKursZaDan(GregorianCalendar datum) {
-		// TODO Auto-generated method stub
+		KursIDatum k = new KursIDatum();
+		if(k.getDatum().equals(datum))return k;
 		return null;
 	}
 
