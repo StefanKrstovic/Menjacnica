@@ -41,7 +41,7 @@ public class Valuta {
 	
 	@Override
 	public String toString() {
-		return "Naziv " + this.getNaziv() + " odnosno skraceno " + this.getSkraceniNaziv() + " poslednji unet kurs " + this.getKurs().getLast().getKupovni() + "\\" + this.getKurs().getLast().getSrednji() + "\\" +this.getKurs().getLast().getProdajni();
+		return "Naziv " + this.getNaziv() + " odnosno skraceno " + this.getSkraceniNaziv() + " poslednji unet kurs " + this.getKurs().getLast().getKupovni() + "\\" + this.getKurs().getLast().getSrednji() + "\\" + this.getKurs().getLast().getProdajni();
 	}
 	@Override
 	public int hashCode() {

@@ -51,7 +51,7 @@ public class KursIDatum {
 	}
 
 	public String toString() {
-		return "Kurs za datum " + this.getDatum().getTime() + " je " + this.getKupovni()+ "\\" + this.getSrednji() + this.getProdajni();
+		return "Kurs za datum " + this.getDatum().getTime() + " je " + this.getKupovni()+ "\\" + this.getSrednji() + "\\" + this.getProdajni();
 	}
 	
 	
